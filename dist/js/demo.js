@@ -103,7 +103,7 @@ This file is for demo purposes only.
     
     var $header_fixed_container = $('<div />', {
         class : 'mb-1'
-    }).append($header_fixed_checkbox).append('<span>Fixed</span>');
+    }).append($header_fixed_checkbox).append('<span>Fixed - Header</span>');
     
     $container.append($header_fixed_container);
     /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -205,7 +205,7 @@ This file is for demo purposes only.
     
     var $sidebar_fixed_container = $('<div />', {
         class : 'mb-1'
-    }).append($sidebar_fixed_checkbox).append('<span>Fixed</span>');
+    }).append($sidebar_fixed_checkbox).append('<span>Fixed - Sidebar</span>');
     
     $container.append($sidebar_fixed_container);
     /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -427,7 +427,7 @@ This file is for demo purposes only.
     
     var $footer_fixed_container = $('<div />', {
         class : 'mb-4'
-    }).append($footer_fixed_checkbox).append('<span>Fixed</span>');
+    }).append($footer_fixed_checkbox).append('<span>Fixed - Footer</span>');
     
     $container.append($footer_fixed_container);
     /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
